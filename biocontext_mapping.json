@@ -1,0 +1,68 @@
+{
+	"agent_event_type_triple":{
+		"__comment_key": "agent_event_type",
+		"Positive_regulation": "go:0048518",
+		"Negative_regulation":"go:0048519",
+		"Regulation": "go:0050789"
+	},
+
+	"event_type_triple":{
+		"__comment_key": "event_type",
+		"Positive_regulation": {
+			"__comment_key": "target_event_type",
+			"Gene_expression": "go:0010628",
+			"Transcription": "go:0010628",
+			"Binding": "go:0051099",
+			"Phosphorylation": "go:0042327",
+			"Protein_catabolism": "go:0045732",
+			"__default": "go:0048518",
+			"__default_text": "positive regulation of biological process"
+		},
+
+		"Negative_regulation": {
+			"Gene_expression": "go:0010629",
+			"Transcription": "go:0010629",
+			"Binding": "go:0051100",
+			"Phosphorylation": "go:0042326",
+			"Protein_catabolism": "go:0042177",
+			"__default": "go:0048519",
+			"__default_text": "negative regulation of biological process"
+		},
+
+		"Regulation": {
+			"Gene_expression": "go:0010468",
+			"Transcription": "go:0010468",
+			"Binding": "go:0051098",
+			"Phosphorylation": "go:0042325",
+			"Protein_catabolism": "go:0042176",
+			"__default": "go:0050789",
+			"__default_text": "regulation of biological process"
+		},
+
+		"Localization": {
+			"__default": "go:0051179"
+		},
+
+		"Binding": {
+			"__default": "go:0005488"
+		},
+
+		"Gene_expression": {
+			"__default": "go:0010467"
+		},
+
+		"Transcription": {
+			"__default": "go:0009299"
+		},
+
+		"Phosphorylation": {
+			"__default": "go:0016310"
+		},
+
+		"Protein_catabolism": {
+			"__default": "go:0030163"
+		}
+	}
+}
+
+
